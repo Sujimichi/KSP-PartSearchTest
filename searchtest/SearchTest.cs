@@ -21,7 +21,7 @@ namespace searchtest
 		private List<KeyValuePair<string, int>> results = new List<KeyValuePair<string, int>>();
 		private string search_str = "";
 
-		private bool use_tag_attributes = true;
+		private bool use_tag_attributes = false;
 
 		//populate the Dictionary "part_map" of part names to tags with various scores.
 		//for each part it creates 'tags' from individual words in various attributes and assigns each tag a score (based on which attribute they came from)
